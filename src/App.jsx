@@ -9,12 +9,11 @@ function App() {
     <>
       <div>
         
+        {/* Browser Routers - React Router Dom  */}
         <Router>
-
           <Routes>
 
-
-            Homepage
+            {/* Homepage */}
             <Route 
               path="/"
               element={
@@ -24,8 +23,8 @@ function App() {
               }
             />
 
+            
           </Routes>
-
         </Router>
 
       </div>
